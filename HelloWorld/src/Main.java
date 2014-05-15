@@ -7,9 +7,9 @@ public class Main {
 		
 	}
 	
-	pulic static void main (String[] args){
-		public static void foo() {
+	
+	public static void bar() {
 			
-		}
 	}
+	
 }
