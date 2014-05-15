@@ -35,6 +35,7 @@ public class Colors {
 		} else if (color == "bgGray" || color == "bgWhite") {
 			return "\u001B[47m" + text;
 		}
+		
 		return text;
 	}
 }
