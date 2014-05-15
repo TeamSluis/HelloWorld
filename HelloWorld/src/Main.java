@@ -5,11 +5,5 @@ public class Main {
 	
 	public static void foo() {
 		
-	}
-	
-	
-	public static void bar() {
-			
-	}
-	
+	}	
 }
