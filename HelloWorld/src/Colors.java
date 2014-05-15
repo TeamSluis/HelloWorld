@@ -15,7 +15,7 @@ public class Colors {
 		} else if (color == "Lblue" || color == "lightblue" || color == "lblue"
 				|| color == "lBlue") {
 			return "\u001B[36m" + text;
-		} else if (color == "gray") {
+		} else if (color == "gray" || color =="white") {
 			return "\u001B[37m" + text;
 		} else if (color == "bgBlack") {
 			return "\u001B[40m" + text;
@@ -32,7 +32,7 @@ public class Colors {
 		} else if (color == "bgLblue" || color == "bglightblue"
 				|| color == "bglblue" || color == "bglBlue") {
 			return "\u001B[46m" + text;
-		} else if (color == "bgGray") {
+		} else if (color == "bgGray" || color == "bgWhite") {
 			return "\u001B[47m" + text;
 		}
 		return text;
