@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.color.*;
 
 public class Main {
+
 	private static void createGameWindow() {
 			
 		   //Create window
@@ -31,5 +32,11 @@ public static void main(String[] args) {
         }
     });
 }
+
+
+	
+	public static void foo() {
+		
+	}	
 }
 
